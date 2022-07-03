@@ -22,7 +22,7 @@ h1{
     border-radius: 5px;
 }
 
-section{
+.top-banner{
     display: flex;
 }
 .box-1{
@@ -38,3 +38,27 @@ section{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+.middle-part{
+    display: flex;
+    margin-top: 3rem;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box-2{
+    width: 50%;
+    padding-left: 9%;
+    
+}
+
+.resume{
+    margin-top: 3rem;
+    text-decoration: none;
+    background-image: linear-gradient(yellow, orange);
+    color: gray;
+    font-weight: 700;
+    padding: 10px 40px;
+}
+
