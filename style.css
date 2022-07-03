@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange-class{
+    color: orange;
+}
+
+.Hire{
+    text-decoration: none;
+    border: 1px solid white;
+    background-image: linear-gradient(orange, red);
+    color: aliceblue;
+    font-weight: 700;
+    width:150px;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+section{
+    display: flex;
+}
+.box-1{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.box-1 img{
+    width: 80%;
+}
+
+.top-banner{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
