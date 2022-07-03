@@ -24,6 +24,7 @@ h1{
 
 .top-banner{
     display: flex;
+   
 }
 .box-1{
     width: 50%;
@@ -37,6 +38,8 @@ h1{
 .top-banner{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 7rem;
+    
 }
 
 .middle-part{
@@ -50,6 +53,7 @@ h1{
 .box-2{
     width: 50%;
     padding-left: 9%;
+    padding-right: 9%;
     
 }
 
@@ -62,3 +66,39 @@ h1{
     padding: 10px 40px;
 }
 
+.last-part{
+    display: flex;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 9%;
+    margin-bottom: 5rem;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.box-3{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 30px gray;
+    
+}
+
+#full-stack{
+    border-left: 7px solid tomato;
+    border-radius: 10px;
+}
+
+#baby-stack{
+    border-left: 7px solid blue;
+    border-radius: 10px;
+}
+
+.last{
+    text-align: center;
+    font-weight: 400;
+}
